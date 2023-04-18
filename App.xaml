@@ -2,8 +2,25 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Exam"
-             StartupUri="MainWindow.xaml">
+             StartupUri="Pages/Authorization.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#03DAC5"/>
+            <Setter Property="FontFamily" Value="Serifiqo 4F Free Capitals"/>
+        </Style>
+        
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Serifiqo 4F Free Capitals"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="Serifiqo 4F Free Capitals"/>
+            <Setter Property="Background" Value="#FEFFB7"/>
+        </Style>
+
+        <Style TargetType="PasswordBox">
+            <Setter Property="FontFamily" Value="Serifiqo 4F Free Capitals"/>
+            <Setter Property="Background" Value="#FEFFB7"/>
+        </Style>
     </Application.Resources>
 </Application>
